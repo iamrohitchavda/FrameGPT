@@ -130,7 +130,6 @@ framegpt/
 - [Architecture & UML Diagrams](docs/ARCHITECTURE.md)
 - [API Specification](docs/API.md)
 - [Setup Guide](docs/SETUP.md)
-- [Contributing](CONTRIBUTING.md)
 
 ---
 
