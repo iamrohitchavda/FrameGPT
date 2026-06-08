@@ -27,19 +27,19 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-        continue-on-error: true
+        # continue-on-error: true
 
       - name: Install Python deps
         run: |
           if [ -f apps/api/requirements.txt ]; then
             pip install -r apps/api/requirements.txt
           fi
-        continue-on-error: true
+        # continue-on-error: true
 
       - name: Lint
         run: pnpm lint
-        continue-on-error: true
+        # continue-on-error: true
 
       - name: Build
         run: pnpm build
-        continue-on-error: true
+        # continue-on-error: true
